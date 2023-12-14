@@ -1,0 +1,36 @@
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.post-image{
+    height: 50px;
+    width: 50px;
+}
+
+.post-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-details{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.upvote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar{
+    margin: 0;
+    background-color: lightblue ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
